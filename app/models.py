@@ -20,7 +20,7 @@ class Emp(models.Model):
     hiredate=models.DateField()
     sal=models.IntegerField()
     
-    deptno=models.ForeignKey(Dept, on_delete=models.CASCADE,default=10)
+    deptno=models.ForeignKey(Dept, on_delete=models.CASCADE,default=10) 
 
     def __str__(self):
         return self.ename
