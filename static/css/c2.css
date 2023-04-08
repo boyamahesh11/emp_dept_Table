@@ -1,0 +1,44 @@
+*
+{
+    padding: 5px;
+    margin: 0%;
+}
+#a
+{
+    background-color:orangered;
+    color: white;
+}
+#b
+{
+    background-color:aqua;
+    color:white;
+}
+#c
+{
+    background-color: green;
+    color: white;
+}
+#d
+{
+    background-color:blue;
+    color: white;
+}
+.hello>:hover
+{
+    background-color:deeppink;
+    color:black;
+    border-radius: 10px;
+    background-origin:border-box;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+h1
+{
+    border-radius: 2px;
+    background-color:brown;
+    color:black;
+    text-align: center;
+}
